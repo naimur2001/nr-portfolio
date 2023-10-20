@@ -18,7 +18,7 @@ const Contact = () => {
     or WhatsApp me-{'>'} (+880) 01921201138</p>
   </div>
 <div className="card flex-shrink w-full max-w-sm  bg-transparent ">
-<form method='POST' action='https://getform.io/f/ba661837-ed73-45b1-9ba0-2b9a85f02a79' >
+<form method='POST' action='https://getform.io/f/c270765f-7cbe-4079-a9ce-d212a4002726' >
       <div className="card-body">
         <div className="form-control">
           <label className="label">
