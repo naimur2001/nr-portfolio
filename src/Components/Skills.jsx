@@ -7,10 +7,13 @@ import javascript from '../assets/javascript.png'
 import node from '../assets/node.png'
 import react from '../assets/react.png'
 import express from '../assets/express.png'
-import firebase from '../assets/firebase.png'
+// import firebase from '../assets/firebase.png'
 import mongo from '../assets/mongo.png'
-import bootstrap from '../assets/bootstrap.png'
-import vercel from '../assets/vercel.png'
+import pg from '../assets/pg.png'
+import prisma from '../assets/prisma.png'
+import python from '../assets/python.png'
+// import bootstrap from '../assets/bootstrap.png'
+// import vercel from '../assets/vercel.png'
 const Skills = () => {
   return (
     <div name='skills' className='w-full  lg:h-screen    bg-slate-900  font-mono '>
@@ -42,8 +45,8 @@ const Skills = () => {
                   <p className='my-4 text-slate-100'>TAILWIND</p>
               </div>
               <div className='shadow-md rounded-2xl shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={bootstrap} alt="icon" />
-                  <p className='my-4 text-slate-100'>BOOTSTRAP</p>
+                  <img className='w-20 mx-auto my-4 bg-white rounded-lg p-2' src={pg} alt="icon" />
+                  <p className='my-4 text-slate-100'>POSTGRESQL</p>
               </div>
               <div className='shadow-md rounded-2xl shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={javascript} alt="icon" />
@@ -70,12 +73,12 @@ const Skills = () => {
                   <p className='my-4 text-slate-100'>MONGO DB</p>
               </div>
               <div className='shadow-md rounded-2xl shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={vercel} alt="icon" />
-                  <p className='my-4 text-slate-100'>VERCEL</p>
+                  <img className='w-40 mx-auto my-4 bg-white rounded-lg p-2' src={prisma} alt="icon" />
+                  <p className='my-4 text-slate-100'>PRISMA</p>
               </div>
               <div className='shadow-md rounded-2xl shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={firebase} alt="icon" />
-                  <p className='my-4 text-slate-100'>FIREBASE</p>
+                  <img className='w-20 mx-auto' src={python} alt="icon" />
+                  <p className='my-4 text-slate-100'>PYTHON</p>
               </div>
           </div>
     </div>
