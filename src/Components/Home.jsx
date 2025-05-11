@@ -33,7 +33,7 @@ about problem-solving and always eager to grow and
 contribute to innovative projects</p>
           <div className='grid grid-cols-1 lg:grid-cols-2 lg:w-2/3 gap-7 my-4'>
             
-              <a href={resume} download className='flex md:w-1/3 lg:w-2/3 justify-center items-center gap-2 border-2 p-2 text-white border-red-500 rounded-md hover:border-warning duration-300'>My Resume <HiArrowDown></HiArrowDown></a>
+              <a href={resume} download className='flex md:w-1/3 lg:w-2/3 justify-center items-center gap-2 border-2 p-2 text-white border-red-500 rounded-md hover:border-warning duration-300'>My CV <HiArrowDown></HiArrowDown></a>
             <button className='flex md:w-1/3 lg:w-2/3  justify-center items-center gap-2 border-2 p-2 text-white border-red-500 rounded-md hover:border-warning duration-300  ' >
             <Link  to="projects"  smooth={true}  duration={500} >
         View  Projects
